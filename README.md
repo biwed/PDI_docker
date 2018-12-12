@@ -1,2 +1,2 @@
 # PDI_docker
-Докер с Pentaho Data Integration версии 7.1 
+Докер с Pentaho Data Integration версии 8.2 
