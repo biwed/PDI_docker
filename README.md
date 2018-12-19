@@ -1,6 +1,6 @@
 # Docker DPI 8.2
 
-Docker PDI 8.2 сделан для интеграции с git репозитариями:
+Docker PDI 7.1 и 8.2 сделан для интеграции с git репозитариями:
   - Может подключаться к git репозитарию.
   - Идентифицировать kjb и ktr.
   - Производить из запуск трансформации или задания.
@@ -16,4 +16,4 @@ docker run pdi_docker https://github.com/biwed/pdi_trick.git clone_row_on_pdi 
 ```
 # Технические характеристики
 - openjdk-8-jdk
-- PDI CE 8.2.0.0-342
+- PDI CE 8.2.0.0-342 или PDI CE 7.1.0.0-12

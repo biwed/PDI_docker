@@ -1,0 +1,7 @@
+    # ports: host_port:docker_port
+    #
+    version: '3'
+    services:
+      pdi_docker:
+        build: .
+        image: pdi_docker
