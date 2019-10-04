@@ -44,8 +44,8 @@ RUN apt-get update \
 
 ENV JAVA_HOME=/usr/lib/jvm/java-8-openjdk-amd64/
 
-ENV PDI_VERSION=8.2 \
-    PDI_BUILD=8.2.0.0-342 \
+ENV PDI_VERSION=8.3 \
+    PDI_BUILD=8.3.0.0-371 \
     JRE_HOME=${JAVA_HOME} \
     PENTAHO_JAVA_HOME=${JAVA_HOME} \
     PENTAHO_HOME=/opt/pentaho \
