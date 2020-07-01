@@ -61,7 +61,7 @@ RUN wget -O /tmp/pdi-ce.zip https://sourceforge.net/projects/pentaho/files/Penta
 
 WORKDIR ${USER_KETTLE_HOME}
 
-RUN wget http://central.maven.org/maven2/mysql/mysql-connector-java/${MYSQL_DRIVER_VERSION}/mysql-connector-java-${MYSQL_DRIVER_VERSION}.jar \
+RUN wget https://search.maven.org/remotecontent?filepath=mysql/mysql-connector-java/${MYSQL_DRIVER_VERSION}/mysql-connector-java-${MYSQL_DRIVER_VERSION}.jar \
     && rm -f lib/mysql*.jar \
     && mv *.jar lib/ \
     && chmod +x *.sh
